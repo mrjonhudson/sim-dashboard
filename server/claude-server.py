@@ -11,8 +11,7 @@ app = Flask(__name__)
 CORS(app, resources={r"/stream": {"origins": "*"}}, supports_credentials=True)
 
 # Add log file here
-# log_file = ""
-log_file = "/Users/mrjonhudson/Library/Application Support/CrossOver/Bottles/Assetto Corsa/drive_c/Program Files (x86)/Steam/steamapps/common/assettocorsa/apps/python/ac-telem/logs/speed_log.json"
+log_file = ""
 
 # Ask for PIN and encode it
 pin = input("Enter the PIN: ")
