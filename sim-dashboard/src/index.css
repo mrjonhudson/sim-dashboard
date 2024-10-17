@@ -1,0 +1,19 @@
+@tailwind base; 
+@tailwind components; 
+@tailwind utilities;
+
+.display-div {
+    @apply border-2 border-white bg-gray-600 rounded-md flex items-center justify-center w-full h-full;
+}
+
+.display-text {
+    @apply text-3xl;
+}
+
+.font-digital {
+    font-family: 'Digital Numbers', sans-serif;
+}
+
+.font-adlam {
+    font-family: 'ADLaM Display', sans-serif;
+}
