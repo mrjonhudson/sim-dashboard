@@ -30,7 +30,7 @@ const DigitalSpeedo: React.FC<DigitalSpeedoProps> = ({ speed, gear, performance,
                     <p className="text-7xl font-adlam text-center">{displayGear}</p>
                 </div>
                 <div className="flex justify-end min-w-[200px]  items-end">
-                    <p className="font-digital text-8xl lg:text-9xl text-end">{"000"}</p>
+                    <p className="font-digital text-8xl lg:text-9xl text-end">{speed.toFixed(0)}</p>
                     <p className="text-4xl font-adlam text-center">mph</p>
                 </div>
                 <div className="flex justify-center items-end h-full">
